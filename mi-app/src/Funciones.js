@@ -1,4 +1,6 @@
 import Clases from "./Clases"; 
+import Propiedades from "./Propiedades";
+
 function Componenteuno() {
     return (
         <p>Hola, soy el componente nro 1</p>
@@ -14,6 +16,7 @@ function Funciones() {
             <Componenteuno></Componenteuno>
             <Componenteuno/>
             <Clases/>
+            <Propiedades elemento="elemento que me lee propiedades en el div"/>
         </div> 
     );
 }
